@@ -1,0 +1,6 @@
+ar9132_tl_wr1043nd_v1.o: arch/mips/boot/dts/qca/ar9132_tl_wr1043nd_v1.dts \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/input.h \
+ scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h \
+ arch/mips/boot/dts/qca/ar9132.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/ath79-clk.h
