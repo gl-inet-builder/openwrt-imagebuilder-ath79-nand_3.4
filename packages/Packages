@@ -1,0 +1,346 @@
+Package: ddns-scripts
+Version: 2.7.8-1
+Source: package/feeds/packages/ddns-scripts
+SourceName: ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14654
+Filename: ddns-scripts_2.7.8-1_all.ipk
+Size: 15722
+SHA256sum: 565d86475ad68c4076ee38ec1c045412b5a5ea906a965b426e2f1887da0886a2
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: dnscrypt-proxy-resolvers
+Version: 2019-08-20-07ac3825-2
+Depends: libc
+Source: feeds/packages/net/dnscrypt-proxy
+SourceName: dnscrypt-proxy-resolvers
+License: ISC
+LicenseFiles: COPYING
+Section: net
+Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 7514
+Filename: dnscrypt-proxy-resolvers_2019-08-20-07ac3825-2_mips_24kc.ipk
+Size: 8311
+SHA256sum: 9f2eb24506f11687fa85559227ca709de396486d876f7ba051cb456d59fc29d1
+Description:  Package with current list of dnscrypt-proxy resolvers.
+
+Package: dnscrypt-proxy
+Version: 2019-08-20-07ac3825-2
+Depends: libc, libsodium, dnscrypt-proxy-resolvers
+Source: feeds/packages/net/dnscrypt-proxy
+SourceName: dnscrypt-proxy
+License: ISC
+LicenseFiles: COPYING
+Section: net
+Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 57796
+Filename: dnscrypt-proxy_2019-08-20-07ac3825-2_mips_24kc.ipk
+Size: 58689
+SHA256sum: fe46db186fce8ebe5cb85d83929b6ce7f8dd21dc76a88770a46427993fa2aa65
+Description:  dnscrypt-proxy provides local service which can be used directly as your
+ local resolver or as a DNS forwarder, encrypting and authenticating requests
+ using the DNSCrypt protocol and passing them to an upstream server.
+ The DNSCrypt protocol uses high-speed high-security elliptic-curve cryptography
+ and is very similar to DNSCurve, but focuses on securing communications between
+ a client and its first-level resolver.
+
+Package: fcgi
+Version: 2.4.2-1
+Depends: libc, libpthread
+Source: package/network/services/fcgi
+SourceName: fcgi
+License: MIT
+LicenseFiles: LICENSE.TERMS
+Section: libs
+Maintainer: Jacob Siverskog <jacob@teenageengineering.com>
+Architecture: mips_24kc
+Installed-Size: 18448
+Filename: fcgi_2.4.2-1_mips_24kc.ipk
+Size: 19294
+SHA256sum: 82dbfc9587cb92294fc8bdfee40809018be750939873a4d0398d0396d03752e7
+Description:  FastCGI is a language independent, scalable, open extension to
+ CGI that provides high performance without the limitations of
+ server specific APIs.
+
+Package: libev
+Version: 4.31-1
+Depends: libc
+Source: feeds/packages/libs/libev
+SourceName: libev
+License: BSD-2-Clause
+Section: libs
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: mips_24kc
+Installed-Size: 25302
+Filename: libev_4.31-1_mips_24kc.ipk
+Size: 26033
+SHA256sum: eef76c22601a00ca298d4eec3c10107d6c6fc81249805b9590a6a36cb1d912e1
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libimobiledevice
+Version: 1.3.0-1
+Depends: libc, libplist, libusbmuxd, libopenssl1.1
+Source: feeds/packages/libs/libimobiledevice
+SourceName: libimobiledevice
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LESSER
+Section: libs
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 47129
+Filename: libimobiledevice_1.3.0-1_mips_24kc.ipk
+Size: 48091
+SHA256sum: 08983579643cb8a49b630dc32a131d4c22adb8ea7c00babc8e2b846ec2b1ac0c
+Description:  libimobiledevice is a software library that talks the protocols to support
+ iPhone®, iPod Touch®, iPad® and Apple TV® devices.
+
+Package: libpcre
+Version: 8.43-1
+Depends: libc
+Source: package/libs/libpcre
+SourceName: libpcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: mips_24kc
+Installed-Size: 80457
+Filename: libpcre_8.43-1_mips_24kc.ipk
+Size: 81324
+SHA256sum: 7fa0a2db19eea8f4e628bf8d96524d1209ae85d034fe9a35817f6ea841482694
+Description:  A Perl Compatible Regular Expression library
+
+Package: libplist
+Version: 2.2.0-2
+Depends: libc, libxml2
+Source: feeds/packages/libs/libplist
+SourceName: libplist
+Section: libs
+CPE-ID: cpe:/a:libimobiledevice:libplist
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 22588
+Filename: libplist_2.2.0-2_mips_24kc.ipk
+Size: 23362
+SHA256sum: 5dde5a0e2fb7daf5a38879bb5c62730ade07daeeed244318adad8109b33919ec
+Description:  A library to handle Apple Property List format whereas it's binary or XML
+
+Package: libsodium
+Version: 1.0.18-3
+Depends: libc
+Source: feeds/packages/libs/libsodium
+SourceName: libsodium
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 143893
+Filename: libsodium_1.0.18-3_mips_24kc.ipk
+Size: 145068
+SHA256sum: 2b8e4a4fa25907edda7c5c8a36fce9cda56e273e806c0d032cd1051781d0b83a
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3-0
+Version: 3330000-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+Source: feeds/packages/libs/sqlite3
+SourceName: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: mips_24kc
+Installed-Size: 469893
+Filename: libsqlite3-0_3330000-1_mips_24kc.ipk
+Size: 470321
+SHA256sum: ec7ee6fd9a9eefaa17129dae0722fe393a8226ba297304c066d232adc4e59347
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libusbmuxd
+Version: 2.0.2-1
+Depends: libc, libplist, libpthread, libxml2, zlib
+Source: feeds/packages/libs/libusbmuxd
+SourceName: libusbmuxd
+Section: libs
+CPE-ID: cpe:/a:libimobiledevice:libusbmuxd
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 14342
+Filename: libusbmuxd_2.0.2-1_mips_24kc.ipk
+Size: 15307
+SHA256sum: ffd348c4d390ae5c4b86b69a95acbaaf0d0ad262c3997440cf0901242b7a18f1
+Description:  This daemon is in charge of multiplexing connections over USB to an iPhone or
+ iPod touch. To users, it means you can sync your music, contacts, photos, etc.
+ over USB. To developers, it means you can connect to any listening localhost
+ socket on the device. usbmuxd is not used for tethering data transfer, which
+ uses a dedicated USB interface as a virtual network device.
+ This package contains the libusbmuxd shared library.
+
+Package: libxml2
+Version: 2.9.10-2
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: mips_24kc
+Installed-Size: 429190
+Filename: libxml2_2.9.10-2_mips_24kc.ipk
+Size: 426752
+SHA256sum: 6325fa0b49c33ef9dfc46b66deeceb320475a097fd9dc71339604b2820f08228
+Description:  A library for manipulating XML and HTML resources.
+
+Package: libyaml
+Version: 0.2.5-1
+Depends: libc
+Source: feeds/packages/libs/yaml
+SourceName: libyaml
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:pyyaml_project:pyyaml
+Architecture: mips_24kc
+Installed-Size: 35883
+Filename: libyaml_0.2.5-1_mips_24kc.ipk
+Size: 36675
+SHA256sum: 21775b3287d0e58be0f28b5cc3defaffd9abe1fb6a94611828f2952b006ba725
+Description:  Fast YAML 1.1 parser and emitter library
+
+Package: ntfs-3g
+Version: 2017.3.23-3-fuseint
+Depends: libc, kmod-fuse, libpthread
+Source: feeds/packages/utils/ntfs-3g
+SourceName: ntfs-3g
+License: GPL-2.0-only LGPL-2.1-or-later
+LicenseFiles: COPYING COPYING.LIB
+Section: utils
+CPE-ID: cpe:/a:ntfs-3g:ntfs-3g
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mips_24kc
+Installed-Size: 193112
+Filename: ntfs-3g_2017.3.23-3-fuseint_mips_24kc.ipk
+Size: 194182
+SHA256sum: 8453da45a01526f7d6efda3b964a423bc5870f14ffa456134af6e8f6a92363d6
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: rtty-openssl
+Version: 7.1.4-1
+Depends: libc, libev, libopenssl1.1
+Provides: rtty
+Source: feeds/packages/utils/rtty
+SourceName: rtty-openssl
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Jianhui Zhao <zhaojh329@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 14862
+Filename: rtty-openssl_7.1.4-1_mips_24kc.ipk
+Size: 15508
+SHA256sum: b57b1585f950fb1baeb35c74034bee5ff48ea86f38d62cb39f5b85c4b9e421c7
+Description:  Access your terminals from anywhere via the web
+
+Package: smstools3
+Version: 3.1.21-4
+Depends: libc
+Source: feeds/packages/utils/smstools3
+SourceName: smstools3
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Harald Geyer <harald@ccbib.org>
+Architecture: mips_24kc
+Installed-Size: 111058
+Filename: smstools3_3.1.21-4_mips_24kc.ipk
+Size: 111416
+SHA256sum: 1cc2df0e531243363722211a6e67f358cf92d2d1baffa2bc23083fe7ab30b7ba
+Description:  The SMS Server Tools 3 is a SMS Gateway software which can send and receive
+ short messages through GSM modems and mobile phones.
+
+Package: ssmtp
+Version: 2.64-5
+Depends: libc, libopenssl1.1
+Source: package/utils/ssmtp
+SourceName: ssmtp
+License: GPL-2.0+
+Section: mail
+Maintainer: Dirk Brenken <dev@brenken.org>
+Architecture: mips_24kc
+Installed-Size: 10309
+Filename: ssmtp_2.64-5_mips_24kc.ipk
+Size: 11214
+SHA256sum: 48b26c8d296576162d1d2e8361f4676e94685605b1e05979259f0dbec995f965
+Description:  A secure, effective and simple way of getting mail off a system to your mail hub.
+ Mail is simply forwarded to the configured mailhost, no daemons running in the background.
+ Extremely easy configuration.
+ 
+
+Package: unzip
+Version: 6.0-8
+Depends: libc
+Source: feeds/packages/utils/unzip
+SourceName: unzip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+CPE-ID: cpe:/a:info-zip:unzip
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 101576
+Filename: unzip_6.0-8_mips_24kc.ipk
+Size: 102616
+SHA256sum: 95989709ffaae2e3d02150b46556dc3e46ae12abd6e30d8ac1c26eaff30b4754
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: usbmuxd
+Version: 1.1.1-1
+Depends: libc, librt, libusb-1.0-0, libusbmuxd, libopenssl1.1, libimobiledevice
+Source: feeds/packages/utils/usbmuxd
+SourceName: usbmuxd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING.GPLv2
+Section: utils
+CPE-ID: cpe:/a:libimobiledevice:usbmuxd
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 25793
+Filename: usbmuxd_1.1.1-1_mips_24kc.ipk
+Size: 26513
+SHA256sum: 963388d71e5a8c6d5d051f5e0fb986669f48742414350107f93f395134bba275
+Description:  This daemon is in charge of multiplexing connections over USB to an iPhone or
+ iPod touch. To users, it means you can sync your music, contacts, photos, etc.
+ over USB. To developers, it means you can connect to any listening localhost
+ socket on the device. usbmuxd is not used for tethering data transfer, which
+ uses a dedicated USB interface as a virtual network device.
+
